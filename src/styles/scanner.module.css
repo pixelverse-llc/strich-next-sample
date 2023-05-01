@@ -1,0 +1,34 @@
+.scannerWrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.scannerHeader {
+    padding: 10px;
+}
+
+/* The STRICH BarcodeReader host element */
+.barcodeReader {
+    height: 240px;
+    position: relative;
+    background-color: black;
+}
+
+.scannerResults {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.scannerActions {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.scannerActions button {
+    width: 100%;
+}
